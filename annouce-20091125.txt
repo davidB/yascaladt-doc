@@ -1,0 +1,23 @@
+Hi,
+
+As some my coworkers, some of you could interested by the first version of my first eclipse plugin ;). There is no site/doc yet.
+Current feature :
+* very basic editor (comment, string, keyword highlight)
+* error marker from console output
+* hyperlink/jumper on error/warning from console output
+
+The last 2 features are present in all my editor/configuration and is a must have for me.
+Marker/Hyperlink support scala-maven-plugin output. So you could create an extranel tool who call scala:cc (or scala:compile) and have error updated in your project.
+I've not test but marker/jumper should work with sbt, builr but you need to custom the command to emit (print to console) the line
+ <path>: -1: compiling
+then every marker for <path> (could be the root source dir => recursive) are removed/reset
+
+There is no configuration panel.
+
+The EPFL Scala plugin is not required, and both could work together (from my coworker).
+
+https://sourceforge.net/projects/alchim/files/YaScalaDT/0.1.0/net_alchim31_eclipse_yascaladt_0.1.0.200911202226.jar/download
+
+feedback welcome. (I already work of the second version, more info near)
+
+/davidB
