@@ -17,7 +17,7 @@ The purpose of this github project is to "centralize"/expose information about t
   * work in progress
   * ...
 * into
-  * the formal documentation as text-file
+  * the formal documentation as text-file / image
   * the wiki
   * the issue tracker
 
@@ -44,6 +44,7 @@ Or why I not contribute to ScalaDT ?
 * non conflicting integration with maven
 
 Or why I not contribute to Netbeans ?
+[TODO]
 
 Or why I not enhance emacs or jedit ?
 I like both, used both (ScalaMiniIDE for jedit was my first "real" project in scala)
