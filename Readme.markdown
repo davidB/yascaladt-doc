@@ -28,8 +28,8 @@ Other Eclipse Plugin :
 ----------------------
 
 * ScalaDT the official plugin provide by EPFL
-* scaliptor (http://scaliptor.sourceforge.net/) DEAD
-* lightscalaplugin (http://code.google.com/p/lightscalaplugin/) syntax-highlighting only
+* scaliptor ( http://scaliptor.sourceforge.net/ ) DEAD
+* lightscalaplugin ( http://code.google.com/p/lightscalaplugin/ ) syntax-highlighting only
 
 
 Motivations :
