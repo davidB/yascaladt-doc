@@ -1,0 +1,37 @@
+Hi,
+
+I'm happy to announce the second version of my first eclipse plugin ;).
+
+Current features :
+
+* basic editor
+** syntax highlighting  :comment, string, keyword
+** completion of (), {}, "", []
+** templates completion
+* error marker from console output
+* hyperlink/jumper on error/warning from console output (run from maven, sbt, ...)
+* basic preferences panel
+
+Marker/Hyperlink support scala-maven-plugin output. So you could create an external tool who call scala:cc (or scala:compile) and have error updated in your project.
+I've not test but marker/jumper should work with sbt, builr but you need to custom the command to emit (print to console) the line
+ <path>: -1: compiling
+then every marker for <path> (could be the root source dir => recursive) are removed/reset
+
+The EPFL Scala plugin is not required, and both could work together (from my coworker).
+
+Installation (extract from http://github.com/davidB/yascaladt-doc/blob/master/install.markdown) :
+
+* download from https://sourceforge.net/projects/alchim/files/YaScalaDT
+* remove previous version from your eclipse/dropins directory
+* place the new version in your eclipse/dropins directory
+* see the documentation for additionnal configuration suggestion
+
+Links :
+
+* doc : http://github.com/davidB/yascaladt-doc
+* wiki : http://wiki.github.com/davidB/yascaladt-doc
+* issue tracker : http://github.com/davidB/yascaladt-doc/issues
+
+feedback welcome.
+
+/davidB

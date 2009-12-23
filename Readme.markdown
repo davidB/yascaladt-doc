@@ -27,9 +27,9 @@ But not to share the source code of YaScalaDT
 Other Eclipse Plugin :
 ----------------------
 
-* ScalaDT the official plugin provide by EPFL
-* scaliptor ( http://scaliptor.sourceforge.net/ ) DEAD
-* lightscalaplugin ( http://code.google.com/p/lightscalaplugin/ ) syntax-highlighting only
+* [Scala IDE for Eclipse](http://www.scala-lang.org/node/94) the official plugin provide/supported by EPFL
+* [lightscalaplugin] (http://code.google.com/p/lightscalaplugin/) syntax-highlighting only
+* [scaliptor](http://scaliptor.sourceforge.net/) DEAD
 
 
 Motivations :
@@ -84,28 +84,28 @@ version 0.1.0 :
   * understand maven-scala-plugin and add/remove marker in code
   * add hyperlink/jumper in eclipse console to jump to error/warning
 
-wip :
+version 0.2.0 :
 
 * toggle-comment region
-* highlight couple (bracket,...)
-* completion by templates (like for java)
+* completion by templates (like for yasnippet in emacs)
+* configure indentation size (in space)
+* configure templates
+* autoedit
+  * insert couple : "", (), {}, [], /* */
+  * insert * at the begin of comment line (like java)
 
 todo :
 
+* hihghlight matching braces,...
 * syntax error marker (result of antlr parsing) : run in background "as reconcilier"
 * completion by name (variable/method/Class) already in the file
-  * with a preferences to add, edit, remove
-  * provide the same set as yasnippet (emacs)
 * Open Type (under cursor) (evaluate AnyEdit)
 * auto-indent
   * configure indentation
-    * size
     * tab or space
   * Re-indent code
 * check undo/redo works
 * autoedit
-  * insert couple : "", (), {}, [], /* */
-  * insert * at the begin of comment line (like java)
   * copy/paste code (with import)
 * code navigation
   * find Type/method by simple name (context free like ctags) (fuzzy support like Anything in emacs, ...)

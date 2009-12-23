@@ -1,12 +1,13 @@
-******************************
-* Installation/Configuration *
-******************************
+*******************************
+  Installation/Configuration  
+*******************************
 
 Required Steps
 ==============
 
-1. download the jar https://sourceforge.net/projects/alchim/files/YaScalaDT/0.1.0/net_alchim31_eclipse_yascaladt_0.1.0.200911202226.jar/download
-2. copy the jar into eclipse/dropins
+1. download the jar https://sourceforge.net/projects/alchim/files/YaScalaDT/
+2. remove previous version from eclipse/dropins
+2. copy the new jar into eclipse/dropins
 3. (re)start eclipse
 
 Optional Steps
@@ -44,5 +45,7 @@ Then like for maven, create an external tool or a builder to run
 
 Environment tested :
 ====================
+
 * v0.1.0 : Linux (Ubuntu 9.10) + Eclipse 3.5.1 + Java 1.6 + m2eclipse
 * v0.1.0 : Windows XP/Windows 7 + Eclipse 3.5.1 + Java 1.6 + EPFL Scala Plugin
+* v0.2.0 : Linux (Ubuntu 9.10) + Eclipse 3.5.1 + Java 1.6 + m2eclipse
