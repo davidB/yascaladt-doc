@@ -54,7 +54,7 @@ I like both, used both (ScalaMiniIDE for jedit was my first "real" project in sc
 
 Others :
 
-* As you understand, I tried (IDEA) and used several environments (at least 3 month each full time) and was satisfy by none for daily job (with released scala version). 2 years ago I create ScalaMiniIDE as a temporary solution, waiting the "Work In Progress" on the eclipse and netbeans. So I start create my own (in eclipse, because I prefer eclipse for java mater of taste) => I start learning own to create eclipse plugins
+* As you understand, I tried (IDEA) and used several environments (at least 3 month each full time) and was satisfy by none for daily job (with released scala version). 2 years ago I create ScalaMiniIDE as a temporary solution, waiting the "Work In Progress" on the eclipse and netbeans. So I start create my own (in eclipse, because I prefer eclipse for java mater of taste) => I start learning how to create eclipse plugins
 * May be part of the plugin will become "commercial" (=> current code is closed).
 * having a visual client for sts (scala-tools-server, an other experimental project)
 
@@ -81,10 +81,10 @@ version 0.1.0 :
 * use java preference (color)
 * integration with maven (m2eclipse) (markers should work with EPFL Scala PLugin)
   * maven-scala-plugin generate feedback to output (with reset indicator)
-  * understand maven-scala-plugin and add/remove marker in code
+  * read maven-scala-plugin output to add/remove marker in code
   * add hyperlink/jumper in eclipse console to jump to error/warning
 
-version 0.2.0 :
+version 0.2.x :
 
 * toggle-comment region
 * completion by templates (like for yasnippet in emacs)
@@ -93,6 +93,9 @@ version 0.2.0 :
 * autoedit
   * insert couple : "", (), {}, [], /* */
   * insert * at the begin of comment line (like java)
+* integration with sbt
+  * read sbt output to add/remove markers in code
+  * add hyperlink/jumper in eclipse console to jump to error/warning
 
 todo :
 

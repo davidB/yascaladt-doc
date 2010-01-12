@@ -1,0 +1,38 @@
+Hi,
+
+YaScalaDT 0.2.1 is released, no new features but some fixes and an update site at :
+  http://alchim31.net/eclipse
+
+Fixes: 
+* fix the detection of error/warning in sbt console when compiling so you now could use sbt to compile inside eclipse and have markers into your editor (see online installation instruction)
+* support multi-line message from scalac
+* fix the auto-insertion of */ after /*
+* fix the auto-insertion of * at the begining of new line in comments
+
+Current features (same as previous announce):
+
+* basic editor
+** syntax highlighting  :comment, string, keyword
+** completion of pair (..), {..}, "..", [..], /*..*/
+** templates completion
+* error marker from console output
+* hyperlink/jumper on error/warning from console output (run from maven, sbt, ...)
+* basic preferences panel
+
+The EPFL Scala plugin is not required, but it could work with YaScalaDT.
+
+Installation (extract from http://github.com/davidB/yascaladt-doc/blob/master/install.markdown) :
+
+* remove previous version from your eclipse/dropins directory
+* add the update-site http://alchim31.net/eclipse and follow the wizard to install the plugin YaScalaDT
+* see the documentation for additional configuration suggestion
+
+Links :
+
+[1] doc : http://github.com/davidB/yascaladt-doc
+[2] wiki : http://wiki.github.com/davidB/yascaladt-doc
+[3] issue tracker : http://github.com/davidB/yascaladt-doc/issues
+
+feedback welcome.
+
+/davidB
