@@ -14,7 +14,7 @@ Optional Plugins
 * [AnyEdit](http://andrei.gmxhome.de/anyedit/) : AnyEdit plugin adds several new tools to the context menu of text- based Eclipse editors, to output consoles, to Eclipse main menu and editor toolbar.
 * [M2Eclipse](http://m2eclipse.sonatype.org/) : Maven Integration for Eclipse provides tight integration for Maven into the IDE
 * [Emacs+](http://www.mulgasoft.com/emacsplus/) : Eclipse Extensions for Emacs Expatriates, designed to provide a more Emacs-like experience in the Eclipse text editors.
-
+* [MouseFeed](http://www.mousefeed.com/home) : a Key Promoter for Eclipse.
 
 Optional Steps
 ==============
